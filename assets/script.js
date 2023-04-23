@@ -20,9 +20,7 @@ $(document).ready(function(){
         $("#15 .description").val(localStorage.getItem("15"));
         $("#16 .description").val(localStorage.getItem("16"));
         $("#17 .description").val(localStorage.getItem("17"));
-        $("#21 .description").val(localStorage.getItem("21"));
-        $("#22 .description").val(localStorage.getItem("22"));
-        
+    
         function timeChange(){
             var currentHour = moment().hour(); 
             
